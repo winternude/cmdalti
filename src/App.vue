@@ -16,11 +16,14 @@
 }
 
 nav {
-  padding: 30px;
+  padding: 8px;
+  margin: 30px;
+  height: 40px;
+  background-color: red;
 
   a {
     font-weight: bold;
-    color: #2c3e50;
+    color: black;
 
     &.router-link-exact-active {
       color: #42b983;
